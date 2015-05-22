@@ -99,7 +99,7 @@
             finalWidth,
             optionsLength,
             eventTriggers,
-            isMobile = /android|ip(hone|od|ad)/i.test(navigator.userAgent),
+            isMobile = /android|ip(hone|od|ad)|Windows Phone/i.test(navigator.userAgent),
             tabindex = $original.prop('tabindex'),
             labelBuilder;
 
